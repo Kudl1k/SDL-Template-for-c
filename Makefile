@@ -1,2 +1,2 @@
 main:
-	gcc main.c init.c -lSDL2 -o program
+	gcc -g -fsanitize=address main.c init.c -lSDL2 -o program
